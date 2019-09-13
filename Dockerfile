@@ -11,10 +11,14 @@ RUN apt update; apt -yq upgrade; \
  		autoconf  \
          	ca-certificates  \
 		cmake \
+		cython \
+		cython3 \
 		g++ \
 		gawk \
                 gfortran-7  \
 		git \
+		gsl-bin \
+		libgsl-dev \
 		gnuplot \
  		libblacs-mpi-dev  \
  		libblacs-openmpi1  \
@@ -36,10 +40,19 @@ RUN apt update; apt -yq upgrade; \
  		openmpi-common \
  		openmpi-doc   \
  		openssh-server  \
+		patch \
 		python \
+                python-backports-shutil-get-terminal-size \
+		python-dev \
                 python3-numpy \
                 python3-numpydoc \
+		python-os-client-config \
+		python-os-service-types \
                 python3-scipy \
+		python-setuptools \
+                python3-setuptools \
+		python-subprocess32 \
+                python3-whichcraft \
  		sudo  \
 		vim \
  		wget  \

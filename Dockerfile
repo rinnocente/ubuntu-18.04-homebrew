@@ -48,8 +48,8 @@ RUN apt update; apt -yq upgrade; \
                 python3-numpydoc \
 		python-os-client-config \
 		python-os-service-types \
-		python-pip
-		python3-pip
+		python-pip \
+		python3-pip \
                 python3-scipy \
 		python-setuptools \
                 python3-setuptools \

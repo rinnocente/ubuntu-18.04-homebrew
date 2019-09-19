@@ -28,6 +28,7 @@ RUN apt update; apt -yq upgrade; \
   		libfftw3-doc  \
          	libfftw3-double3   \
                 libgfortran-7-dev  \
+		libgomp1 \
 		libmatheval1 \
 		libmatheval-dev \
          	libopenblas-base  \
@@ -58,8 +59,10 @@ RUN apt update; apt -yq upgrade; \
  		sudo  \
 		vim \
  		wget  \
+		xxd \
 		xxdiff \
-                zlib1g zlib1g-dev \
+                zlib1g \
+		zlib1g-dev \
 		--no-install-recommends \
 	&& apt autoremove   -y \
 	&& rm -rf /var/apt/lists/* \

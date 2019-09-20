@@ -45,12 +45,16 @@ RUN apt update; apt -yq upgrade; \
 		python \
                 python-backports-shutil-get-terminal-size \
 		python-dev \
+		python-matplotlib \
+		python3-matplotlib \
+		python-numpy \
                 python3-numpy \
                 python3-numpydoc \
 		python-os-client-config \
 		python-os-service-types \
 		python-pip \
 		python3-pip \
+		python-scipy \
                 python3-scipy \
 		python-setuptools \
                 python3-setuptools \
